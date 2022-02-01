@@ -1,24 +1,11 @@
-# New Project
+# Brief
+Creer une classe Personnage qui a comme attributs: nom , vie,force.
+Créer une deuxieme classe qui s'apelle Guerrier qui a comme attribut :resistance et qui va heriter de Personnage.
+Créer une 3eme classe qui s'apelle Magicien qui a comme attribut :magie et  qui va heriter de Personnage.
+Et 2 autres classes Elfe(attribut: intelligence) et Orc(attribut: muscle) qui heritent aussi de Personnage .
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+Partie Exo 2:  creer une methode dans Guerrier pour attaquer seulement L'Orc . Si ce sont les autres personnages le message "Tu es mon allié "doit s'afficher.
+Si c'est l'Orc il lui enleve 35 PV.
+Si le PV de l'Orc est < à 30 L'orc doit declencher l'attaque "Hurlement" et doit se regenerer en gagnant 50 PV.
 
-## Available Scripts
-
-### npm start
-
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### npm run build
-
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+N'oubliez pas c'est une classe un fichier.
